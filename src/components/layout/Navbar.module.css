@@ -1,0 +1,30 @@
+.list {
+  display: flex;
+  list-style: none;
+}
+
+.item {
+  margin-right: 1em;
+}
+
+.navbar {
+  background-color: rgb(73, 6, 88);
+  color: rgb(187, 139, 233);
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navbar a:visited {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  color: rgb(204, 155, 225);
+}
