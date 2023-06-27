@@ -1,14 +1,17 @@
 footer p {
-  background-color: rgb(73, 6, 88);
+  background-color: rgb(0, 0, 0);
   margin: 0;
+  padding: 0;
+  font-size: small;
 }
 
 footer {
-  background-color: rgb(73, 6, 88);
-  color: rgb(187, 139, 233);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 20px;
   text-align: center;
   font-style: italic;
+  height: 150px;
 }
 
 .social_list {
@@ -16,15 +19,50 @@ footer {
   justify-content: center;
   align-items: center;
   list-style: none;
-  margin: 0;
-  padding: 0;
+  height: 60px;
 }
 
 .social_list li {
-  margin: 0 1em;
+  padding: 0px;
+  margin: 0px 10px;
+  font-size: large;
+}
+
+.social_list li:hover {
+  font-size: x-large;
+}
+
+.fafacebook:hover {
+  color: #3B5998;
+}
+
+.fainstagram:hover {
+  color: #b52e81;
+}
+
+.falinkedin:hover {
+  color: #0077B5;
+}
+
+.fayoutube:hover {
+  color: #E62117;
 }
 
 .social_list svg {
   font-size: 1.5em;
   cursor: pointer;
+}
+
+footer a {
+  color: rgb(247, 205, 255);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+footer a:visited {
+  color: rgb(233, 126, 126);
 }

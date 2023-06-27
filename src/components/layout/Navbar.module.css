@@ -8,8 +8,8 @@
 }
 
 .navbar {
-  background-color: rgb(73, 6, 88);
-  color: rgb(187, 139, 233);
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   padding: 10px;
   text-align: center;
 }
@@ -27,4 +27,8 @@
 .navbar a:hover {
   text-decoration: underline;
   color: rgb(204, 155, 225);
+}
+
+li {
+  padding: 0px 10px;
 }
